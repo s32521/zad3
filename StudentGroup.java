@@ -9,7 +9,7 @@ public class StudentGroup {
             this.nazwa = nazwa;
         }
         public void addStudent(Student student) {
-
+            students.add(student);
         }
     }
 

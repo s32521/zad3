@@ -15,7 +15,7 @@ public class Student {
         this.email = email;
     }
     public void oceny(double oceny) {
-
+        this.oceny.add(oceny);
     }
 
 }
