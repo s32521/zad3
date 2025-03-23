@@ -33,9 +33,9 @@ public class Student {
 
         double[] mozliwe = {2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0};
         double nSrednia = mozliwe[0];
-        for (int i = 1; i < oceny.size(); i++) {
-            if(Math.abs(oceny.get(i) - srednia) < Math.abs(nSrednia - srednia)) {
-                nSrednia = oceny.get(i);
+        for (int i = 1; i < mozliwe.length; i++) {
+            if(Math.abs(mozliwe[i] - srednia) < Math.abs(nSrednia - srednia)) {
+                nSrednia = mozliwe[i];
             }
         }
         return nSrednia;
